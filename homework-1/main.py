@@ -9,7 +9,7 @@ def csv_reader(filename: str) -> list[tuple]:
     data = []
     try:
         with open(filename, encoding='utf-8') as csvfile:
-            for row in [*reader(csvfile)]:
+            for row in reader(csvfile):
                 data.append(tuple(row))
     except FileNotFoundError:
         raise FileNotFoundError(f'Отсутствует файл {filename}')
