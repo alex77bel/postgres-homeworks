@@ -2,7 +2,7 @@
 -- 1. заказы, доставленные в страны France, Germany, Spain (таблица orders, колонка ship_country)
 SELECT order_id,ship_country
 FROM orders
-where ship_country in ('France','Germany','Spain')
+WHERE ship_country in ('France','Germany','Spain')
 
 -- 2. уникальные города и страны, куда отправлялись заказы, отсортировать по странам и городам (таблица orders, колонки ship_country, ship_city)
 SELECT DISTINCT ship_country, ship_city
