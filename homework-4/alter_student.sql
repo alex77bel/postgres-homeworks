@@ -32,9 +32,9 @@ ALTER TABLE student
 -- 6. Вставить три любых записи с автогенерацией идентификатора
 
 INSERT INTO student (first_name, last_name, birth_date, phone)
-VALUES ('Vasily', 'Vetochkin', '1990-15-02', '+79527896542'),
+VALUES ('Vasily', 'Vetochkin', '1990-02-15', '+79527896542'),
        ('Alexandr', 'Palkin', '1978-10-11', '+79876543214'),
-       ('Xenophonty', 'Mishanov', '1970-25-03', '+76549874563');
+       ('Xenophonty', 'Mishanov', '1970-03-25', '+76549874563');
 
 -- 7. Удалить все данные из таблицы со сбросом идентификатор в исходное состояние
 
